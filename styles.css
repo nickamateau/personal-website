@@ -89,15 +89,18 @@ main {
     box-shadow: 0 2px 8px rgba(44,62,80,0.08);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    background: #222;
 }
 
 .banner-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 55%;
+    object-position: center;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    image-rendering: auto;
+    background: #222;
 }
 
 .banner-overlay {
